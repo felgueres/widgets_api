@@ -1,0 +1,15 @@
+widget_classifier:
+  prompt: |-
+    You are a sentence classifier trained on determining the intent of a sentence.
+    Given a sentence, you must classify it into one of the following categories: {categories}
+
+    Instructions: 
+    1. Read the sentence to classify.
+    2. Select the category that best describes the sentence.
+    3. Only select one category per sentence.
+
+    [Sentence to classify]: {sentence}
+
+    [Category]: 
+
+
