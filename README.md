@@ -41,3 +41,15 @@ This project runs along with [widgets_client](https://github.com/felgueres/widge
 #### Widgets
 
 ![widgets](./widgets.png)
+
+#### Notes
+
+On latency between openai’s functions model vs. running separately
+
+Testing: 
+
+- 20 samples for each task [data](./latency.jsonl), [code](./test_latency.py)
+
+![latency](./latency.png)
+
+~40% less time to call do tasks separately vs. using functions model

@@ -36,7 +36,7 @@
 {"task": "classifier", "labels": "weather", "elapsed": 0.3049449920654297}
 {"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.2288010120391846}
 {"task": "classifier", "labels": "weather", "elapsed": 0.4069058895111084}
-{"model": "extract_params", "labels": "tokyo", "elapsed": 1.4208660125732422}
+{"task": "extract_params", "labels": "tokyo", "elapsed": 1.4208660125732422}
 {"task": "extract_params", "labels": "SF", "elapsed": 0.302081823348999}
 {"task": "extract_params", "labels": "SF", "elapsed": 0.34192895889282227}
 {"task": "extract_params", "labels": "SF", "elapsed": 0.3045539855957031}
