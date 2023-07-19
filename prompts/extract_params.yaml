@@ -10,8 +10,14 @@ calculator:
     2. Extract the mathematical expression. 
     3. It can evaluated by python eval() function. This is very important.
 
-    [Sentence]: {q}
-    [Expression]: 
+    [s]: What is 2 + 2?
+    [expr]: 2 + 2
+
+    [s]: what's (2 * 5) - 3
+    [expr]: (2 * 5) - 3
+
+    [s]: {q}
+    [expr]: 
 
 time:
   prompt: |-
