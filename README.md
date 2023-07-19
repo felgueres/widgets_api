@@ -25,3 +25,14 @@ export FLASK_APP=serve.py; export FLASK_ENV=development; flask run
 |   +-- prompts 
 |   |   +-- classifier.yaml 
 ```
+
+#### Implementation 
+
+1. User asks a question
+2. LLM classifies question into a widget label 
+3. If supported, LLM gets params to evaluate widget
+4. Widget evalutes params which could be an api call or function call
+5. Widget returns answer to client 
+
+#### Widgets
+![alt text](./widgets.png)

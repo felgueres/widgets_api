@@ -4,10 +4,11 @@ import backoff
 from extra.logger_config import setup_logger
 import pprint
 logger = setup_logger(__name__)
+
 from dotenv import load_dotenv
 load_dotenv()
-
 OPENAI_KEY = os.getenv("OPENAI_KEY")
+
 openai.api_key = OPENAI_KEY
 
 class RetriableError(Exception):

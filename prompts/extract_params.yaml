@@ -1,0 +1,56 @@
+calculator:
+  prompt: |-
+    You are an expert parsing mathematical expressions. 
+    Given a sentence, your task is to extract the mathematical expression.
+
+    Before answering, make sure to follow these instructions.
+
+    Instructions: 
+    1. Read the sentence.
+    2. Extract the mathematical expression. 
+    3. It can evaluated by python eval() function. This is very important.
+
+    [Sentence]: {q}
+    [Expression]: 
+
+time:
+  prompt: |-
+    You are an expert extracting a location from a sentence.
+    Given a sentence, your task is to extract the location and provide the timezone.
+    If the location is not found, return the word locale.
+
+    [Sentence]: Time in New York
+    [Timezone]: America/New_York
+
+    [Sentence]: What's the current time in London?
+    [Timezone]: Europe/London
+
+    [Sentence]: What time is it in Tokyo?
+    [Timezone]: Asia/Tokyo
+
+    [Sentence]: What time is it
+    [Timezone]: locale
+
+    [Sentence]: {q}
+    [Timezone]:
+
+weather:
+  prompt: |-
+    Your are an expert extracting a location from a sentence.
+    Give a sentence, your task is to extract the location.
+    If the location is not found, return the word locale.
+
+    [Sentence]: What's the weather in New York?
+    [Location]: New York
+
+    [Sentence]: What's the weather in London?
+    [Location]: London
+
+    [Sentence]: What's the weather in Tokyo?
+    [Location]: Tokyo
+
+    [Sentence]: What's the weather
+    [Location]: locale
+
+    [Sentence]: {q}
+    [Location]:
