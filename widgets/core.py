@@ -29,7 +29,7 @@ match_fn = {
     'weather': handle_weather,
     'calculator': handle_calculator,
     'time': handle_time,
-    'none': lambda: jsonify({'object': 'UnsupportedWidget', 'data': {}})
+    'none': lambda: jsonify({'object': 'UnknownWidget', 'data': {}})
 }
 
 @core_bp.route('/v1/search', methods=['POST', 'GET'])
