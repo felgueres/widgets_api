@@ -2,8 +2,6 @@ import os
 import openai
 import backoff
 from extra.logger_config import setup_logger
-import pprint
-import json
 
 logger = setup_logger(__name__)
 
@@ -25,11 +23,11 @@ def non_retriable(e):
     return not isinstance(e, retriable_exceptions)
 
 def handle_success(d):
-    l = { "elapsed": d['elapsed'], 
-          "model_type": 'fn' if 'functions' in d['kwargs'] else 'compl'}
-    with open('./latency.jsonl', 'a') as f:
-        f.write(json.dumps(l) + '\n')
-    pprint.pprint(d)
+    pass
+
+def handle_error(e, *args, **kwargs):
+    logger.error(f"Error: {e}")
+    raise e
 
 @backoff.on_exception(backoff.expo, openai.error.OpenAIError, max_tries=5, giveup=non_retriable, on_success=handle_success)
 def completions_with_backoff(**kwargs):

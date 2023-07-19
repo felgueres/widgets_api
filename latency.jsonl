@@ -1,40 +1,57 @@
-{"elapsed": 6e-06, "model_type": "fn"}
-{"elapsed": 1.6e-05, "model_type": "compl"}
-{"elapsed": 1.6e-05, "model_type": "fn"}
-{"elapsed": 2.5e-05, "model_type": "compl"}
-{"elapsed": 2.6e-05, "model_type": "fn"}
-{"elapsed": 2.3e-05, "model_type": "compl"}
-{"elapsed": 2.2e-05, "model_type": "fn"}
-{"elapsed": 2e-05, "model_type": "compl"}
-{"elapsed": 2.3e-05, "model_type": "fn"}
-{"elapsed": 2.7e-05, "model_type": "compl"}
-{"elapsed": 1.4e-05, "model_type": "fn"}
-{"elapsed": 1.3e-05, "model_type": "compl"}
-{"elapsed": 1.9e-05, "model_type": "fn"}
-{"elapsed": 2.2e-05, "model_type": "compl"}
-{"elapsed": 2.7e-05, "model_type": "fn"}
-{"elapsed": 1.8e-05, "model_type": "compl"}
-{"elapsed": 2.2e-05, "model_type": "fn"}
-{"elapsed": 1.8e-05, "model_type": "compl"}
-{"elapsed": 2.6e-05, "model_type": "fn"}
-{"elapsed": 2.1e-05, "model_type": "compl"}
-{"elapsed": 9e-06, "model_type": "fn"}
-{"elapsed": 2.5e-05, "model_type": "compl"}
-{"elapsed": 2.4e-05, "model_type": "fn"}
-{"elapsed": 2.1e-05, "model_type": "compl"}
-{"elapsed": 2.1e-05, "model_type": "fn"}
-{"elapsed": 1e-05, "model_type": "compl"}
-{"elapsed": 8e-06, "model_type": "fn"}
-{"elapsed": 4.4e-05, "model_type": "compl"}
-{"elapsed": 2.8e-05, "model_type": "fn"}
-{"elapsed": 2.5e-05, "model_type": "compl"}
-{"elapsed": 2.7e-05, "model_type": "fn"}
-{"elapsed": 3.4e-05, "model_type": "compl"}
-{"elapsed": 3.2e-05, "model_type": "fn"}
-{"elapsed": 2e-05, "model_type": "compl"}
-{"elapsed": 0.000291, "model_type": "fn"}
-{"elapsed": 4e-05, "model_type": "compl"}
-{"elapsed": 2.2e-05, "model_type": "fn"}
-{"elapsed": 2.3e-05, "model_type": "compl"}
-{"elapsed": 2.3e-05, "model_type": "fn"}
-{"elapsed": 2.1e-05, "model_type": "compl"}
+{"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 2.819075107574463}
+{"task": "classifier", "labels": "weather", "elapsed": 0.3974442481994629}
+{"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 3.0361921787261963}
+{"task": "classifier", "labels": "weather", "elapsed": 1.5947730541229248}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.262587070465088}
+{"task": "classifier", "labels": "weather", "elapsed": 0.5964679718017578}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.2613520622253418}
+{"task": "classifier", "labels": "weather", "elapsed": 0.26873016357421875}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.414478063583374}
+{"task": "classifier", "labels": "weather", "elapsed": 0.7137949466705322}
+{"task": "fn", "labels": "{\n  \"location\": \"Sao Paulo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.938990831375122}
+{"task": "classifier", "labels": "weather", "elapsed": 0.6159050464630127}
+{"task": "fn", "labels": "{\n  \"location\": \"Sao Paulo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.4363739490509033}
+{"task": "classifier", "labels": "weather", "elapsed": 0.6517782211303711}
+{"task": "fn", "labels": "{\n  \"location\": \"Sao Paulo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.254986047744751}
+{"task": "classifier", "labels": "weather", "elapsed": 0.7840909957885742}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.141826868057251}
+{"task": "classifier", "labels": "weather", "elapsed": 0.53448486328125}
+{"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.1874189376831055}
+{"task": "classifier", "labels": "weather", "elapsed": 0.5818750858306885}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 0.9908380508422852}
+{"task": "classifier", "labels": "weather", "elapsed": 0.27669787406921387}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.090703010559082}
+{"task": "classifier", "labels": "weather", "elapsed": 0.3005411624908447}
+{"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 0.9792439937591553}
+{"task": "classifier", "labels": "weather", "elapsed": 0.4050712585449219}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.0846140384674072}
+{"task": "classifier", "labels": "weather", "elapsed": 0.35832905769348145}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.6725990772247314}
+{"task": "classifier", "labels": "weather", "elapsed": 0.41283583641052246}
+{"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.1834049224853516}
+{"task": "classifier", "labels": "weather", "elapsed": 0.25907015800476074}
+{"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.1049151420593262}
+{"task": "classifier", "labels": "weather", "elapsed": 0.32091403007507324}
+{"task": "fn", "labels": "{\n  \"location\": \"San Francisco, CA\",\n  \"category\": \"weather\"\n}", "elapsed": 1.3170700073242188}
+{"task": "classifier", "labels": "weather", "elapsed": 0.3049449920654297}
+{"task": "fn", "labels": "{\n  \"location\": \"Tokyo\",\n  \"category\": \"weather\"\n}", "elapsed": 1.2288010120391846}
+{"task": "classifier", "labels": "weather", "elapsed": 0.4069058895111084}
+{"model": "extract_params", "labels": "tokyo", "elapsed": 1.4208660125732422}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.302081823348999}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.34192895889282227}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.3045539855957031}
+{"task": "extract_params", "labels": "Sao Paolo", "elapsed": 0.4121999740600586}
+{"task": "extract_params", "labels": "Sao Paolo", "elapsed": 0.30391407012939453}
+{"task": "extract_params", "labels": "sao paolo", "elapsed": 0.3606300354003906}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.3135049343109131}
+{"task": "extract_params", "labels": "tokyo", "elapsed": 0.6951141357421875}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.34389495849609375}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.4074249267578125}
+{"task": "extract_params", "labels": "tokyo", "elapsed": 0.40375494956970215}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.6372160911560059}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.33223557472229004}
+{"task": "extract_params", "labels": "tokyo", "elapsed": 0.3480720520019531}
+{"task": "extract_params", "labels": "tokyo", "elapsed": 0.40663814544677734}
+{"task": "extract_params", "labels": "SF", "elapsed": 0.29975295066833496}
+{"task": "extract_params", "labels": "tokyo", "elapsed": 0.417111873626709}
+{"task": "extract_params", "labels": "Sao Paolo", "elapsed": 0.7006630897521973}
