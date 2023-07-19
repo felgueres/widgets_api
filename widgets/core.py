@@ -25,11 +25,14 @@ def handle_time(q, metadata=None):
     current_time = get_current_time_in_tz(pred_tz)
     return jsonify({'object': 'TimeWidget', 'data': { 'time': current_time, 'tz': pred_tz}}), 200
 
+def handle_no_match(_):
+    return jsonify({'object': 'UnknownWidget', 'data': {}}), 200
+
 match_fn = {
     'weather': handle_weather,
     'calculator': handle_calculator,
     'time': handle_time,
-    'none': lambda: jsonify({'object': 'UnknownWidget', 'data': {}})
+    'none': handle_no_match 
 }
 
 @core_bp.route('/v1/search', methods=['POST', 'GET'])
