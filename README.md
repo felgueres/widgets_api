@@ -16,6 +16,8 @@ pip install -r requirements.txt
 export FLASK_APP=serve.py; export FLASK_ENV=development; flask run
 ```
 
+This project runs along with [widgets_client](https://github.com/felgueres/widgets_client).
+
 #### Structure 
 ```bash
 +-- serve.py # entry to flask 
