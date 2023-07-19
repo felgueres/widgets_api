@@ -29,10 +29,10 @@ match_fn = {
     'weather': handle_weather,
     'calculator': handle_calculator,
     'time': handle_time,
-    'none': lambda: jsonify({'object': '', 'data': {}})
+    'none': lambda: jsonify({'object': 'UnsupportedWidget', 'data': {}})
 }
 
-@core_bp.route('/v1/search', methods=['POST'])
+@core_bp.route('/v1/search', methods=['POST', 'GET'])
 def search():
     q = request.args.get('q')
     prompt = load_prompt('classifier')['prompt'].format(q=q, categories=match_fn.keys())
