@@ -10,6 +10,7 @@ logger = setup_logger(__name__)
 def handle_weather(q, metadata=None):
     prompt = load_prompt('extract_params')['weather']['prompt'].format(q=q)
     pred_location = gpt(prompt=prompt)["choices"][0]["message"]["content"]
+    if pred_location == 'locale': pred_location = 'SF' #TODO: get locale from request
     cur_weather_data = get_current_weather(pred_location) 
     return jsonify({'object': 'WeatherWidget', 'data': cur_weather_data}), 200
 
