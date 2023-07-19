@@ -34,5 +34,8 @@ export FLASK_APP=serve.py; export FLASK_ENV=development; flask run
 4. Widget evalutes params which could be an api call or function call
 5. Widget returns answer to client 
 
+![data](./flow.png)
+
 #### Widgets
-![alt text](./widgets.png)
+
+![widgets](./widgets.png)
