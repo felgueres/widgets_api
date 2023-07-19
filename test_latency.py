@@ -7,13 +7,8 @@ q = "What is the weather in SF?"
 
 def classifier(q):
     prompt = load_prompt('classifier')['prompt'].format(q=q, categories=match_fn.keys())
-    pred_widget_cls = gpt(prompt=prompt)["choices"][0]["message"]["content"]
+    pred_widget_cls = gpt(prompt=prompt, max_tokens=2)["choices"][0]["message"]["content"]
     return pred_widget_cls
-
-def extract(q):
-    prompt = load_prompt('extract_params')['weather']['prompt'].format(q=q)
-    pred_location = gpt(prompt=prompt)["choices"][0]["message"]["content"]
-    return pred_location
 
 def fn_cls_and_extract(q): 
     categories = list(match_fn.keys())
@@ -42,7 +37,7 @@ def fn_cls_and_extract(q):
 
 n_tries = 10
 for i in range(n_tries): 
-    fn_cls_and_extract(q)
-    classifier(q)
+    print(fn_cls_and_extract(q))
+    print(classifier(q))
 
 
